@@ -1,0 +1,25 @@
+﻿Build started 2017/12/22 21:38:48.
+Project "G:\OpenSource_Extend\log4cxx\src\apr-util\xml\expat\lib\xml.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  正在创建“.\LibD\xml.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+CustomBuild:
+  所有输出均为最新。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D "VERSION=\"expat_1.95.2\"" /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\LibD\\" /Fd"LibD\xml_src" /Gd /TC /analyze- /errorReport:prompt xmlparse.c xmlrole.c xmltok.c  /EHsc   /EHsc 
+  xmlparse.c
+  xmlrole.c
+  xmltok.c
+  正在生成代码...
+Lib:
+  D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\LibD\xml.lib" /NOLOGO .\LibD\xmlparse.obj
+  .\LibD\xmlrole.obj
+  .\LibD\xmltok.obj
+  xml.vcxproj -> G:\OpenSource_Extend\log4cxx\src\apr-util\xml\expat\lib\.\LibD\xml.lib
+FinalizeBuildStatus:
+  正在删除文件“.\LibD\xml.unsuccessfulbuild”。
+  正在对“.\LibD\xml.lastbuildstate”执行 Touch 任务。
+Done Building Project "G:\OpenSource_Extend\log4cxx\src\apr-util\xml\expat\lib\xml.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:02.63
